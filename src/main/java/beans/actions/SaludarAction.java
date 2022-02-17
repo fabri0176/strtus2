@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package beans.actions;
 
 import org.apache.logging.log4j.*;
@@ -15,7 +11,9 @@ public class SaludarAction extends ActionSupport {
     Logger log = LogManager.getLogger(SaludarAction.class);
 
     private String saludosAtr;
-
+    
+    
+    @Override
     public String execute() {
         log.info("Ejecutando metodo execute desde struts2");
         this.setSaludosAtr("Saludos desde Struts2");

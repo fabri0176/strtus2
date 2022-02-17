@@ -13,6 +13,6 @@
         <title>Saludos de Fabricio desde Struts 2</title>
     </head>
     <body>
-        <h1><s:property value="saludosAtr"></s:property></h1>
+        <h1>${saludosAtr}</h1>
     </body>
 </html>
